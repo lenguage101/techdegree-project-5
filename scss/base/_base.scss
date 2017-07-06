@@ -1,0 +1,13 @@
+* {
+	margin: 0;
+}
+ul {
+	padding: 0;
+}
+.container, footer {
+	background: $light;
+	text-align: center;
+	color: $grey;
+	overflow: auto;
+	padding-bottom: 60px;
+}

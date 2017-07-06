@@ -1,0 +1,303 @@
+.width-95, .rightNav li, header, header .description, .row img, .footer {
+  width: 95%; }
+
+.auto, header, .profilePic, header .description, .footer {
+  margin: 0 auto; }
+
+.profilePic, header .description, .endLeft, .endRight {
+  display: inline-block; }
+
+* {
+  margin: 0; }
+
+ul {
+  padding: 0; }
+
+.container, footer {
+  background: #f9fafa;
+  text-align: center;
+  color: #92999a;
+  overflow: auto;
+  padding-bottom: 60px; }
+
+/*div.main-nav starts*/
+.main-nav {
+  text-align: center; }
+  @media screen and (min-width: 1024px) {
+    .main-nav {
+      width: 95%;
+      margin: 0 auto;
+      padding-top: 40px;
+      overflow: auto; } }
+
+.main-nav li {
+  list-style: none; }
+
+.main-nav a {
+  text-decoration: none;
+  font-family: "Roboto";
+  font-weight: 700;
+  color: #384047; }
+
+/*div.leftNav starts*/
+.leftNav {
+  padding: 20px; }
+  @media screen and (min-width: 768px) {
+    .leftNav {
+      padding-bottom: 35px; } }
+  @media screen and (min-width: 1024px) {
+    .leftNav {
+      width: 50%;
+      display: inline-block;
+      float: left;
+      text-align: right;
+      padding: 0;
+      text-align: left; } }
+
+.main-nav a#myName {
+  font-size: 40px; }
+  .main-nav a#myName:hover {
+    color: #c94848;
+    cursor: pointer; }
+  @media screen and (min-width: 768px) {
+    .main-nav a#myName {
+      font-size: 42px;
+      font-family: sans-serif;
+      font-weight: 700px; } }
+  @media screen and (min-width: 1024px) {
+    .main-nav a#myName {
+      font-size: 33px; } }
+
+/*div.leftNav ends*/
+/*div.rightNav starts*/
+.rightNav li {
+  background: #fff;
+  padding: 8px 0;
+  margin: 10px auto;
+  font-size: 24px;
+  font-family: sans-serif;
+  font-weight: 700;
+  text-transform: uppercase; }
+  @media screen and (min-width: 768px) {
+    .rightNav li {
+      display: inline-block;
+      background: #f9fafa;
+      padding: 0 20px;
+      margin: 10px auto;
+      font-size: 24px;
+      font-family: sans-serif;
+      font-weight: 700;
+      width: auto; } }
+  @media screen and (min-width: 1024px) {
+    .rightNav li {
+      background: #f9fafa;
+      padding: 0 0 0 40px;
+      font-size: 20px; } }
+.rightNav a:hover {
+  color: #c94848;
+  cursor: pointer; }
+  @media screen and (min-width: 768px) {
+    .rightNav a:hover {
+      border-bottom: 3px solid #c94848;
+      color: #333; } }
+  @media screen and (min-width: 1024px) {
+    .rightNav a:hover {
+      border: none;
+      color: #fff;
+      background: #c94848;
+      padding: 10px 20px;
+      border-radius: 20px; } }
+@media screen and (min-width: 768px) {
+  .rightNav {
+    overflow: auto; } }
+@media screen and (min-width: 1024px) {
+  .rightNav {
+    width: 50%;
+    display: inline-block;
+    float: left;
+    text-align: right; } }
+
+/*div.rightNav ends*/
+/*div.main-nav ends*/
+header {
+  padding: 65px 0; }
+
+.profilePic {
+  width: 100%; }
+  @media screen and (min-width: 768px) {
+    .profilePic {
+      width: 38%;
+      margin: 0;
+      float: right; } }
+
+header .description {
+  font-size: 24px;
+  font-family: "Lato";
+  font-weight: normal;
+  text-align: left; }
+  @media screen and (min-width: 768px) {
+    header .description {
+      width: 60%;
+      display: inline-block;
+      float: left; } }
+
+.description p {
+  text-align: center; }
+  @media screen and (min-width: 768px) {
+    .description p {
+      text-align: left; } }
+
+header img {
+  padding: 0 0 30px 0; }
+  @media screen and (min-width: 768px) {
+    header img {
+      padding: 0;
+      width: 100%;
+      margin: 0 auto; } }
+
+/*div.content starts*/
+.content {
+  text-align: center; }
+  @media screen and (min-width: 768px) {
+    .content {
+      overflow: auto; } }
+
+#myPortfolio {
+  padding: 50px 0;
+  font-size: 20px;
+  font-family: "Roboto";
+  font-weight: 700; }
+
+.row {
+  width: 100%;
+  padding-bottom: 50px; }
+
+.row .col-1 {
+  width: 100%; }
+  @media screen and (min-width: 768px) {
+    .row .col-1 {
+      width: 49%;
+      float: left; } }
+  @media screen and (min-width: 768px) {
+    .row .col-1:nth-child(2n) {
+      float: right; } }
+  @media screen and (min-width: 1024px) {
+    .row .col-1:nth-child(2n) {
+      float: left; } }
+  @media screen and (min-width: 1024px) {
+    .row .col-1 {
+      width: 33%; } }
+
+.row img {
+  border-radius: 20px; }
+
+.row .col-1 p.title {
+  font-size: 24px;
+  font-family: "Lato";
+  font-weight: normal;
+  color: #333;
+  padding: 30px 0; }
+  @media screen and (min-width: 768px) {
+    .row .col-1 p.title {
+      padding: 30px 0 20px 0; } }
+
+.row .col-1 p.portfolioDescription {
+  font-size: 20px;
+  font-family: "Lato";
+  font-weight: normal;
+  color: grey;
+  padding-bottom: 30px; }
+  @media screen and (min-width: 768px) {
+    .row .col-1 p.portfolioDescription {
+      font-size: 16px; } }
+
+/*div.content ends*/
+footer {
+  padding: 50px 0; }
+  @media screen and (min-width: 768px) {
+    footer {
+      overflow: auto; } }
+
+@media screen and (min-width: 768px) {
+  .contacting {
+    width: 80%;
+    margin: 0 auto; } }
+@media screen and (min-width: 1024px) {
+  .contacting {
+    width: 60%;
+    margin: 0 auto; } }
+
+.footerTitle {
+  font-size: 20px;
+  font-family: "Roboto";
+  font-weight: 700;
+  color: #384047; }
+
+.footerInfo {
+  padding: 30px 0;
+  font-size: 22px;
+  font-family: "Lato";
+  font-weight: normal; }
+  @media screen and (min-width: 768px) {
+    .footerInfo {
+      padding: 50px 0; } }
+
+.contactInfo {
+  border-bottom: 0.5px solid rgba(0, 0, 0, 0.15); }
+  @media screen and (min-width: 768px) {
+    .contactInfo {
+      border: none; } }
+
+.contactInfo p {
+  padding-bottom: 20px;
+  font-size: 22px ", Lato";
+  font-family: sans-serif;
+  font-weight: normal; }
+
+.contactInfo p span {
+  font-weight: 700;
+  padding-left: 10px; }
+
+.contactInfo p:last-child {
+  padding-bottom: 70px; }
+
+.end {
+  padding: 30px 0 40px 0; }
+  @media screen and (min-width: 768px) {
+    .end {
+      border-top: 0.5px solid rgba(0, 0, 0, 0.15); } }
+  @media screen and (min-width: 1024px) {
+    .end {
+      padding: 30px 0; } }
+
+.endLeft, .endRight {
+  float: left; }
+
+.endRight {
+  float: right; }
+
+.endRight li:not(:first-child) {
+  display: none; }
+
+.endRight li {
+  list-style: none; }
+  @media screen and (min-width: 768px) {
+    .endRight li {
+      display: inline-block !important;
+      text-transform: uppercase;
+      padding-left: 20px; } }
+
+.end a {
+  text-decoration: none;
+  font-family: "Roboto";
+  font-weight: 700;
+  color: #333; }
+
+.end a:hover {
+  color: #c94848; }
+
+@media screen and (min-width: 768px) {
+  .backToTop {
+    display: none; } }
+
+/*# sourceMappingURL=application.css.map */

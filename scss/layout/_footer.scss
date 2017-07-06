@@ -1,0 +1,92 @@
+footer {
+	padding: 50px 0;
+	@media screen and (min-width: $breakpoint-md){
+		overflow: auto;
+	}
+}
+.footer {
+	@extend .width-95;
+	@extend .auto;
+}
+.contacting {
+	@media screen and (min-width: $breakpoint-md){
+		width: 80%;
+		margin: 0 auto;
+	}	
+	@media screen and (min-width: $breakpoint-lg){
+		width: 60%;
+		margin: 0 auto;
+	}	
+}
+.footerTitle {
+	@include font(20px, 'Roboto', 700, $dark-grey);
+}
+.footerInfo {
+	padding: 30px 0;
+	@include font(22px, 'Lato');
+	@media screen and (min-width: $breakpoint-md){
+		padding: 50px 0;
+	}
+}
+.contactInfo {
+	border-bottom: .5px solid $transparent-grey;
+	@media screen and (min-width: $breakpoint-md){
+		border: none;
+	}
+}
+.contactInfo {
+	p {
+		padding-bottom: 20px;
+		@include font(22px', Lato');
+	}
+}
+.contactInfo p span {
+	font-weight: 700;
+	padding-left: 10px;
+}
+.contactInfo {
+	p:last-child {
+		padding-bottom: 70px;
+	}
+}
+.end{
+	padding: 30px 0 40px 0;
+	@media screen and (min-width: $breakpoint-md){
+		border-top: .5px solid $transparent-grey;
+	}
+	@media screen and (min-width: $breakpoint-lg) {
+		padding: 30px 0;
+	}
+}
+.endLeft, .endRight {
+	@extend %in-block;
+	float: left;
+}
+.endRight {
+	float: right;
+}
+.endRight li:not(:first-child) {
+	display: none;
+}
+.endRight {
+	li {
+		list-style: none;
+		@media screen and (min-width: $breakpoint-md){
+			display: inline-block !important;
+			text-transform: uppercase;
+			padding-left: 20px;
+		}
+	}
+}
+.end a {
+	text-decoration: none;
+	@include font($family: 'Roboto', $weight: 700, $color: $darker-grey);
+}
+.end a:hover {
+	color: $crimson;
+}
+.backToTop {
+	@media screen and (min-width: $breakpoint-md){
+		display: none;
+	}
+}

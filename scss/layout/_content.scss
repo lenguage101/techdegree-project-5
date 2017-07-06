@@ -1,0 +1,56 @@
+/*div.content starts*/
+.content {
+	text-align: center;
+	@media screen and (min-width: $breakpoint-md){
+		overflow: auto;
+	}
+}
+#myPortfolio {
+ 	padding: 50px 0;
+ 	@include font(20px, 'Roboto', 700);
+}
+.row {
+	width: 100%;
+	padding-bottom: 50px;
+}
+.row { 
+ 	.col-1 {
+		width: 100%;
+		@media screen and (min-width: $breakpoint-md){
+			width: 49%;
+			float: left;
+		}
+		&:nth-child(2n) {
+			@media screen and (min-width: $breakpoint-md){
+				float: right;
+			}
+			@media screen and (min-width: $breakpoint-lg){
+				float: left;
+			}
+		}
+		 @media screen and (min-width: $breakpoint-lg) {
+		 	width: 33%;
+		}
+	}
+}
+.row {
+	img {
+ 		@extend .width-95;
+		border-radius: 20px;
+	}
+}
+.row .col-1 p.title {
+	@include font(24px, 'Lato', $color: $darker-grey);
+	padding: 30px 0;
+	@media screen and (min-width: $breakpoint-md){
+		padding: 30px 0 20px 0;
+	}
+}
+.row .col-1 p.portfolioDescription {
+	@include font(20px,'Lato', $color: grey);
+	padding-bottom: 30px;
+	@media screen and (min-width: $breakpoint-md){
+		font-size: 16px;
+	}
+}
+/*div.content ends*/

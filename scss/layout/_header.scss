@@ -1,0 +1,43 @@
+header {
+    padding: 65px 0;
+    @extend .width-95;
+    @extend .auto;
+}
+.profilePic {
+	@extend %in-block;
+	width: 100%;
+	@extend .auto;
+	@media screen and (min-width: $breakpoint-md) {
+		width: 38%;
+		margin: 0;
+		float: right;
+	}
+}
+header .description {
+	@extend %in-block;
+	@extend .width-95;
+	@extend .auto;
+    @include font(24px, 'Lato');
+    text-align: left;
+    @media screen and (min-width: $breakpoint-md) {
+    	width: 60%;
+		display: inline-block;
+		float: left;
+    }
+}
+.description {
+	p {
+		text-align: center;
+	    @media screen and (min-width: $breakpoint-md) {
+			text-align: left;
+	    }
+    }
+}
+header img {
+	padding: 0 0 30px 0;
+	@media screen and (min-width: 768px) {
+	    padding: 0;
+	    width: 100%;
+	    margin: 0 auto;
+	}
+}
